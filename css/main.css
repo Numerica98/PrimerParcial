@@ -20,7 +20,8 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+    margin-top: 1em;/*3C*/
 }
 
 .src-only {
@@ -100,10 +101,12 @@ p{
 
 .container{/**/
     margin-bottom: 2em;
+    padding: 0 1em;/*3C.Probar los 3 tipos de margenes a ver si sale lo mismo que con padding*/
 }
 
 .green-area {
     background-color: #0AC693; 
+    padding: 0 1em;/*3C*/
 }
 
 
@@ -133,7 +136,7 @@ p{
     border-radius: 10px;
     background-color: #ffffff;
     text-align: left;
-    padding-bottom: 2em;
+    /*padding-bottom: 2em; 3C*/
 }
 
 .post article img{
@@ -144,7 +147,7 @@ p{
 
 .post article h3 {
     color: #0D5061;
-    margin-top: 2em;
+    margin-top: 1em;/*3C*/
     padding: 0em 1rem;
     font-size: 0.9em;
     white-space: nowrap;
