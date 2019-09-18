@@ -39,7 +39,7 @@ p{
 }
 
 .logo {
-    width: 90px;
+    width: 130px;/*4C*/
     margin: 1em;
 }
 
@@ -318,6 +318,16 @@ footer .social-links {
         font-size: xx-large;
     }
 
+    .about>.container{/*4C*/
+        display: grid;
+        grid-auto-rows: 0.1fr 1fr;
+        grid-auto-columns: 1fr 1fr;
+        grid-gap: 30px;
+    }
+
+    .about>.container>h2{
+        grid-column: span 2;
+    }
 
     /*TODO: FALTA CSS */
 } 
