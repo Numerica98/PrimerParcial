@@ -73,7 +73,7 @@ p{
 }
 
 .big-hero p {
-    font-size: 0.7em;;
+    /*font-size: 0.7em; 5C*/
     color: #D7DEE6;
 
 }
@@ -166,6 +166,8 @@ p{
 
 .about{
     margin-top: 2em;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .about h2 {
@@ -241,7 +243,7 @@ footer{
 
 footer .social-links {
     margin: 0;
-    padding: 1em;/**/
+    padding-top: 2em;/*5C*/
 }
 
 .menu {
@@ -276,16 +278,17 @@ footer .social-links {
   
     .post ul {
         list-style: none;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
+        display: grid;/*5C*/
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-auto-rows: minmax(350px,1fr);
+        grid-auto-flow: row dense;
     }
     
     .post ul li {
         min-height: 350px;
         max-height: 3500px;
         margin: 1rem 2rem;
-        flex: 1 0 300px;
+        /*flex: 1 0 300px; C5*/
     }
 
 
@@ -316,13 +319,15 @@ footer .social-links {
         color: #0AC693;
         margin-top: 1em;
         font-size: xx-large;
+        margin-bottom: 2em;/*5C*/
     }
 
     .about>.container{/*4C*/
         display: grid;
         grid-auto-rows: 0.1fr 1fr;
         grid-auto-columns: 1fr 1fr;
-        grid-gap: 30px;
+        grid-row-gap: 20px;
+        grid-column-gap: 50px;
     }
 
     .about>.container>h2{
@@ -330,16 +335,29 @@ footer .social-links {
     }
 
     /*TODO: FALTA CSS */
-} 
+}
 
+/*Estilo personalizado para dispositivos con pantallas de 1024px*/
 @media only screen and (min-width: 1024px) {
 
        /*TODO: FALTA CSS */
+    .logo {
+        width: 180px;
+        margin-left: 2em;
+    }
 
+    .menu a:hover{
+        color: #F74442;
+        opacity: 1.0;
+    }
 
-
+    .header{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
 }
 
+/*Estilo personalizado para dispositivos con pantallas de 1024px*/
 @media only screen and (min-width: 1440px) {
 
     /*TODO: FALTA CSS */
