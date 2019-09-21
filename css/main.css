@@ -355,6 +355,18 @@ footer .social-links {
         margin-left: 5%;
         margin-right: 5%;
     }
+
+    .menu li a{
+        font-size: 1.1em;
+    }
+
+    .big-hero p{
+        font-size: 0.80em;
+    }
+
+    .big-hero img{
+        width: 175px;
+    }
 }
 
 /*Estilo personalizado para dispositivos con pantallas de 1024px*/
@@ -365,5 +377,14 @@ footer .social-links {
         width: 80%;
         margin: 0 auto;
         max-width: 1440px;
+    }
+
+    .big-hero{
+        margin-top: 2em;
+    }
+    
+    .about{
+        margin: 2em 5%;
+        padding-bottom: 1em;
     }
 }
