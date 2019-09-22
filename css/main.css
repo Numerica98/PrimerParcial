@@ -339,6 +339,11 @@ footer .social-links {
 /* Pesonalizando estilo para tablets*/
 /*Minimo de ancho en su pantalla de 768px*/
 @media only screen and (min-width: 768px) {
+
+    /*Propiedades para los encabezados (h2) que son hijos directos de un elemento que tiene la clase container*/
+    .container>h2{
+        font-size: 1.2em;
+    }
   
     /*Propiedades para las lista no ordenadas dentro de un elemento que tiene la clase post*/
     .post ul {
