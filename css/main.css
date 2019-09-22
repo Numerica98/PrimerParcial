@@ -341,7 +341,7 @@ footer .social-links {
 @media only screen and (min-width: 768px) {
 
     /*Propiedades para los encabezados (h2) que son hijos directos de un elemento que tiene la clase container*/
-    .container>h2{
+    .about .container>h2, .conteiner.post>h2{
         font-size: 1.2em;
     }
   
