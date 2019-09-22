@@ -452,6 +452,11 @@ footer .social-links {
     .big-hero img{
         width: 175px;
     }
+
+    /*Propiedades para los input de tipo submit que estan dentro de un elemento que tiene la clase contact-form*/
+    .contact-form input[type=submit]{
+        width: 40%;
+    }
 }
 
 /*Estilo personalizado para dispositivos con pantallas de ancho minimo de 1440px*/
